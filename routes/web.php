@@ -25,3 +25,6 @@ Route::get('/pippo', function () {
 Route::get('/paperino', function () {
     return "paperino";
 });
+Route::get('/login', function () {
+    return view('login');
+});
