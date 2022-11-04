@@ -22,4 +22,6 @@ Route::get('/home', function () {
 Route::get('/pippo', function () {
     return "pippo";
 });
-
+Route::get('/paperino', function () {
+    return "paperino";
+});
